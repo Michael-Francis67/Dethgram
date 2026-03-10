@@ -4,7 +4,7 @@ dotenv.config();
 
 export interface Environment {
     PORT: number;
-    NODE_ENV: string;
+    NODE_ENV: "development" | "production";
     DATABASE_URL: string;
     REDIS_URL: string;
     ACCESS_TOKEN_SECRET: string;
@@ -17,6 +17,11 @@ export interface Environment {
     GMAIL_USER_EMAIL: string;
     SENTRY_DSN: string;
     FRONTEND_URL: string;
+    STREAM_API_KEY: string;
+    STREAM_API_SECRET: string;
+    ARCJET_ENV: string;
+    ARCJET_KEY: string;
+    API_URL: string;
 }
 
 function getEnvVariable(key: string, defaultValue?: string): string {
@@ -29,7 +34,7 @@ function getEnvVariable(key: string, defaultValue?: string): string {
 
 export const env: Environment = {
     PORT: parseInt(getEnvVariable("PORT", "3000")),
-    NODE_ENV: getEnvVariable("NODE_ENV", "development"),
+    NODE_ENV: getEnvVariable("NODE_ENV", "development") as "development" | "production",
     DATABASE_URL: getEnvVariable("DATABASE_URL"),
     ACCESS_TOKEN_SECRET: getEnvVariable("ACCESS_TOKEN_SECRET"),
     REFRESH_TOKEN_SECRET: getEnvVariable("REFRESH_TOKEN_SECRET"),
@@ -42,4 +47,9 @@ export const env: Environment = {
     FRONTEND_URL: getEnvVariable("FRONTEND_URL"),
     JWT_ISSUER: getEnvVariable("JWT_ISSUER"),
     JWT_AUDIENCE: getEnvVariable("JWT_AUDIENCE"),
+    STREAM_API_KEY: getEnvVariable("STREAM_API_KEY"),
+    STREAM_API_SECRET: getEnvVariable("STREAM_API_SECRET"),
+    ARCJET_ENV: getEnvVariable("ARCJET_ENV"),
+    ARCJET_KEY: getEnvVariable("ARCJET_KEY"),
+    API_URL: getEnvVariable("API_URL"),
 };

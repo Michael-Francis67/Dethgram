@@ -23,9 +23,10 @@ model User {
   role                         Role      @default(USER)
   isVerified                   Boolean   @default(false)
   isActive                     Boolean   @default(true)
-  emailVerificationToken       String?
+  lastLoginAt                  DateTime  @default(now())
+  emailVerificationToken       String?   @unique
   emailVerificationTokenExpiry DateTime?
-  resetPasswordToken           String?
+  resetPasswordToken           String?   @unique
   resetPasswordTokenExpiry     DateTime?
   createdAt                    DateTime  @default(now())
   updatedAt                    DateTime  @updatedAt
@@ -33,46 +34,58 @@ model User {
   sessions      Session[]
   devices       Device[]
   loginAttempts loginAttempt[]
+  locations     Location[]
+
+  @@map("users")
 }
 
 model Device {
   id         String     @id @default(uuid())
   name       String
   type       DeviceType @default(OTHER)
-  os         String
-  ipAddress  String
-  browser    String
+  os         String?
+  ipAddress  String?
+  browser    String?
   isTrusted  Boolean    @default(false)
   lastUsedAt DateTime   @default(now())
+  revoked    Boolean    @default(false)
+  revokedAt  DateTime?
   userId     String
-  user       User       @relation(fields: [userId], references: [id])
-  deviceId   String
+  user       User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  deviceId   String?    @unique
   createdAt  DateTime   @default(now())
   updatedAt  DateTime   @updatedAt
   session    Session?
+  locations  Location[]
+
+  @@map("devices")
 }
 
 model Session {
   id        String   @id @default(uuid())
   token     String   @unique
   userId    String
-  user      User     @relation(fields: [userId], references: [id])
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   expiresAt DateTime
   deviceId  String?  @unique
   device    Device?  @relation(fields: [deviceId], references: [id])
+
+  @@map("sessions")
 }
 
 model loginAttempt {
   id        String   @id @default(uuid())
   email     String
   success   Boolean
-  ipAddress String
+  ipAddress Int
   userAgent String
   userId    String?  @unique
-  user      User?    @relation(fields: [userId], references: [id])
+  user      User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
   createdAt DateTime @default(now())
+
+  @@map("login_attempts")
 }
 
 enum DeviceType {
@@ -80,6 +93,21 @@ enum DeviceType {
   MOBILE
   TABLET
   OTHER
+}
+
+model Location {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  ipAddress String
+  city      String
+  region    String
+  country   String
+  deviceId  String
+  device    Device   @relation(fields: [deviceId], references: [id])
+  createdAt DateTime @default(now())
+
+  @@map("locations")
 }
 
 enum Role {

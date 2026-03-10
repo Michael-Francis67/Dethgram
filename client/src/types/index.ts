@@ -61,3 +61,8 @@ export type Session = Prisma.SessionModel
  * 
  */
 export type loginAttempt = Prisma.loginAttemptModel
+/**
+ * Model Location
+ * 
+ */
+export type Location = Prisma.LocationModel

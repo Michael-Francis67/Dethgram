@@ -1,0 +1,33 @@
+2026-03-09 19:20:24:2024 [31merror[39m: [31mFailed to connect to Redis: getaddrinfo ENOTFOUND powerful-kiwi-58263.upstash.io[39m
+2026-03-10 14:13:51:1351 [31merror[39m: [31mFailed to login user: Email not verified[39m
+2026-03-10 14:13:51:1351 [31merror[39m: [31mEmail not verified[39m
+2026-03-10 14:33:00:330 [31merror[39m: [31mFailed to login user: [39m
+[31mInvalid `prisma.device.update()` invocation:[39m
+
+
+[31mAn operation failed because it depends on one or more records that were required but not found. No record was found for an update.[39m
+2026-03-10 14:33:00:330 [31merror[39m: [31m[39m
+[31mInvalid `prisma.device.update()` invocation:[39m
+
+
+[31mAn operation failed because it depends on one or more records that were required but not found. No record was found for an update.[39m
+2026-03-10 14:36:53:3653 [31merror[39m: [31mFailed to login user: [39m
+[31mInvalid `prisma.device.update()` invocation:[39m
+
+
+[31mAn operation failed because it depends on one or more records that were required but not found. No record was found for an update.[39m
+2026-03-10 14:36:53:3653 [31merror[39m: [31m[39m
+[31mInvalid `prisma.device.update()` invocation:[39m
+
+
+[31mAn operation failed because it depends on one or more records that were required but not found. No record was found for an update.[39m
+2026-03-10 14:49:41:4941 [31merror[39m: [31mFailed to login user: [39m
+[31mInvalid `prisma.device.update()` invocation:[39m
+
+
+[31mAn operation failed because it depends on one or more records that were required but not found. No record was found for an update.[39m
+2026-03-10 14:49:41:4941 [31merror[39m: [31m[39m
+[31mInvalid `prisma.device.update()` invocation:[39m
+
+
+[31mAn operation failed because it depends on one or more records that were required but not found. No record was found for an update.[39m

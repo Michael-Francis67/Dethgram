@@ -1,0 +1,3 @@
+2026-03-09 16:29:37:2937 [31merror[39m: [31muncaughtException: read ECONNRESET[39m
+[31mError: read ECONNRESET[39m
+[31m    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)[39m

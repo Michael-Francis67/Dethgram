@@ -1,0 +1,3 @@
+2026-03-09 19:20:24:2024 [31merror[39m: [31munhandledRejection: getaddrinfo ENOTFOUND powerful-kiwi-58263.upstash.io[39m
+[31mError: getaddrinfo ENOTFOUND powerful-kiwi-58263.upstash.io[39m
+[31m    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)[39m

@@ -8,6 +8,7 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "allowImportingTsExtensions": true,
+        "allowSyntheticDefaultImports": true,
         "emitDeclarationOnly": true,
         "declaration": true,
         "outDir": "./dist",
