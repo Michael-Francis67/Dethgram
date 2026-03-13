@@ -1,3 +1,12 @@
 2026-03-09 19:20:24:2024 [31merror[39m: [31munhandledRejection: getaddrinfo ENOTFOUND powerful-kiwi-58263.upstash.io[39m
 [31mError: getaddrinfo ENOTFOUND powerful-kiwi-58263.upstash.io[39m
 [31m    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)[39m
+2026-03-13 15:41:26:4126 [31merror[39m: [31munhandledRejection: Connection timeout[39m
+[31mError: Connection timeout[39m
+[31m    at TLSSocket.onTimeout (C:\Users\LEGEND\Desktop\dethgram\server\auth\node_modules\@redis\client\lib\client\socket.ts:274:40)[39m
+[31m    at Object.onceWrapper (node:events:632:28)[39m
+[31m    at TLSSocket.emit (node:events:518:28)[39m
+[31m    at TLSSocket.emit (node:domain:489:12)[39m
+[31m    at TLSSocket.Socket._onTimeout (node:net:604:8)[39m
+[31m    at listOnTimeout (node:internal/timers:588:17)[39m
+[31m    at processTimers (node:internal/timers:523:7)[39m

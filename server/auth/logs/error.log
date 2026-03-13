@@ -31,3 +31,13 @@
 
 
 [31mAn operation failed because it depends on one or more records that were required but not found. No record was found for an update.[39m
+2026-03-13 15:41:26:4126 [31merror[39m: [31mFailed to connect to Redis: Connection timeout[39m
+2026-03-13 15:41:26:4126 [31merror[39m: [31munhandledRejection: Connection timeout[39m
+[31mError: Connection timeout[39m
+[31m    at TLSSocket.onTimeout (C:\Users\LEGEND\Desktop\dethgram\server\auth\node_modules\@redis\client\lib\client\socket.ts:274:40)[39m
+[31m    at Object.onceWrapper (node:events:632:28)[39m
+[31m    at TLSSocket.emit (node:events:518:28)[39m
+[31m    at TLSSocket.emit (node:domain:489:12)[39m
+[31m    at TLSSocket.Socket._onTimeout (node:net:604:8)[39m
+[31m    at listOnTimeout (node:internal/timers:588:17)[39m
+[31m    at processTimers (node:internal/timers:523:7)[39m

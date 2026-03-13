@@ -29,7 +29,7 @@ class EmailService {
             from: "Dethgram <michaelthemastercoder@gmail.com>",
             to: email,
             subject: "Welcome to Dethgram!",
-            html: WELCOME_EMAIL_TEMPLATE.replace("{{name}}", name).replace("{{cta_link}}", link),
+            html: WELCOME_EMAIL_TEMPLATE.replace("{{name}}", name).replace("{{link}}", link),
         };
 
         this.transporter.sendMail(mailOptions);

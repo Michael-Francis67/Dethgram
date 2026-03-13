@@ -651,3 +651,108 @@
 2026-03-10 15:14:33:1433 [32minfo[39m: [32mAll database connections established successfully.[39m
 2026-03-10 15:14:33:1433 [32minfo[39m: [32mWelcome email sent successfully.[39m
 2026-03-10 15:14:33:1433 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-10 15:24:04:244 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-10 15:24:05:245 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-10 15:24:05:245 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-10 15:24:05:245 [32minfo[39m: [32mWelcome email sent successfully.[39m
+2026-03-10 15:24:05:245 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-10 15:26:46:2646 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-10 15:26:47:2647 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-10 15:26:47:2647 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-10 15:26:47:2647 [32minfo[39m: [32mWelcome email sent successfully.[39m
+2026-03-10 15:26:47:2647 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-10 15:27:43:2743 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-10 15:27:44:2744 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-10 15:27:44:2744 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-10 15:27:44:2744 [32minfo[39m: [32mWelcome email sent successfully.[39m
+2026-03-10 15:27:44:2744 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-10 15:30:09:309 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-10 15:30:12:3012 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-10 15:30:12:3012 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-10 15:30:12:3012 [32minfo[39m: [32mWelcome email sent successfully.[39m
+2026-03-10 15:30:12:3012 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-10 15:31:55:3155 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-10 15:31:56:3156 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-10 15:31:56:3156 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-10 15:31:56:3156 [32minfo[39m: [32mWelcome email sent successfully.[39m
+2026-03-10 15:31:56:3156 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-10 15:33:49:3349 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-10 15:33:50:3350 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-10 15:33:50:3350 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-10 15:33:50:3350 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 13:07:57:757 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 13:09:44:944 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 13:09:46:946 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-13 13:09:46:946 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-13 13:09:46:946 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 15:09:12:912 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 15:09:17:917 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-13 15:09:17:917 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-13 15:09:17:917 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 15:14:59:1459 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 15:15:35:1535 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-13 15:15:35:1535 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-13 15:15:35:1535 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 15:18:42:1842 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 15:18:47:1847 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-13 15:18:47:1847 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-13 15:18:47:1847 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 15:25:53:2553 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 15:26:23:2623 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 15:26:31:2631 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-13 15:26:31:2631 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-13 15:26:31:2631 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 15:28:55:2855 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 15:29:03:293 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-13 15:29:03:293 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-13 15:29:03:293 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 15:41:17:4117 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 15:41:26:4126 [31merror[39m: [31mFailed to connect to Redis: Connection timeout[39m
+2026-03-13 15:41:26:4126 [31merror[39m: [31munhandledRejection: Connection timeout[39m
+[31mError: Connection timeout[39m
+[31m    at TLSSocket.onTimeout (C:\Users\LEGEND\Desktop\dethgram\server\auth\node_modules\@redis\client\lib\client\socket.ts:274:40)[39m
+[31m    at Object.onceWrapper (node:events:632:28)[39m
+[31m    at TLSSocket.emit (node:events:518:28)[39m
+[31m    at TLSSocket.emit (node:domain:489:12)[39m
+[31m    at TLSSocket.Socket._onTimeout (node:net:604:8)[39m
+[31m    at listOnTimeout (node:internal/timers:588:17)[39m
+[31m    at processTimers (node:internal/timers:523:7)[39m
+2026-03-13 16:37:36:3736 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 16:37:40:3740 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-13 16:37:40:3740 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-13 16:37:40:3740 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 16:39:16:3916 [32minfo[39m: [32mSuccessfully connected to Prisma.[39m
+2026-03-13 16:39:17:3917 [32minfo[39m: [32mSuccessfully connected to Redis.[39m
+2026-03-13 16:39:17:3917 [32minfo[39m: [32mAll database connections established successfully.[39m
+2026-03-13 16:39:17:3917 [32minfo[39m: [32mAuth service is running on port 4001[39m
+2026-03-13 16:42:07:427 [32minfo[39m: [32m{[39m
+[32m  result: IData {[39m
+[32m    ua: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36',[39m
+[32m    browser: IData {[39m
+[32m      name: 'Chrome',[39m
+[32m      version: '145.0.0.0',[39m
+[32m      major: '145',[39m
+[32m      type: undefined[39m
+[32m    },[39m
+[32m    cpu: IData { architecture: 'amd64' },[39m
+[32m    device: IData { type: undefined, model: undefined, vendor: undefined },[39m
+[32m    engine: IData { name: 'Blink', version: '145.0.0.0' },[39m
+[32m    os: IData { name: 'Windows', version: '10' }[39m
+[32m  }[39m
+[32m}[39m
+2026-03-13 16:42:10:4210 [32minfo[39m: [32m{[39m
+[32m  location: {[39m
+[32m    range: [ 134744064, 134744575 ],[39m
+[32m    country: 'US',[39m
+[32m    region: '',[39m
+[32m    eu: '0',[39m
+[32m    timezone: 'America/Chicago',[39m
+[32m    city: '',[39m
+[32m    ll: [ 37.751, -97.822 ],[39m
+[32m    metro: 0,[39m
+[32m    area: 1000[39m
+[32m  }[39m
+[32m}[39m
+2026-03-13 16:42:13:4213 [32minfo[39m: [32mSuccessfully upserted Stream user: 82cbcb3e-b7eb-41c2-8cc6-adebd2de7984[39m
+2026-03-13 16:42:13:4213 [32minfo[39m: [32mVerification email sent successfully.[39m
+2026-03-13 16:51:17:5117 [32minfo[39m: [32mWelcome email sent successfully.[39m

@@ -1,29 +1,33 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type {Metadata} from "next";
+import {Inter} from "next/font/google";
 import "./globals.css";
+import StoreProvider from "@/components/providers/store.provider";
+import {Toaster} from "sonner";
 
 const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-})
+    subsets: ["latin"],
+    variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
-  title: "Dethgram",
-  description: "Dethgram is a modern, secure, and user-friendly messaging app built with Next.js and TypeScript. It offers real-time communication, end-to-end encryption, and a sleek interface for seamless chatting experience.",
+    title: "Dethgram",
+    description:
+        "Dethgram is a modern, secure, and user-friendly messaging app built with Next.js and TypeScript. It offers real-time communication, end-to-end encryption, and a sleek interface for seamless chatting experience.",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`min-h-screen ${inter.variable} bg-zinc-50 antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body className={`min-h-screen ${inter.variable} bg-zinc-50 antialiased`}>
+                <StoreProvider>
+                    {children}
+                    <Toaster position="top-right" />
+                </StoreProvider>
+            </body>
+        </html>
+    );
 }
